@@ -1,3 +1,241 @@
 *{
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+} 
+/* Header style    */
+.header{
+    background-image: url(../images/banner/banner1.png);
+    width:100%;
+    height: 750px;;
+    top: 0px;
+} 
+.header-container{
+    height: auto;
+    width: 400px;
+    text-align: right;
+    position: absolute;
+    top: 216px;
+    right:230px;
+
+}
+.header-title{
+    font-weight: 700;
+    font-size: 50px;
+    color: #151414;
+} 
+.header-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 20px;
+} 
+.common-btn{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    padding: 20px 25px;
+}
+/* Main section part one  */
+section-one{
+
+} 
+.section-one{
+    margin-top: 50px;
+}
+.section-one-main-dev{ 
+    display: flex;
+    margin:0px 200px;
+    gap: 70px;
+
+} 
+
+.section-one-photo{ 
+   
+} 
+.section-one-description{
+ 
+    padding: 200px 10px;
+} 
+.section-one-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 30px;
+} 
+.section-sub-desription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 30px;
+} 
+.section-tool-dev{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+} 
+/* section two My Plans */
+
+section-two{
+
+} 
+.section-two-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 30px;
+} 
+.skill-container{ 
+    display: flex;
+    gap: 30px;
+    margin: 0px 270px;
+    text-align: center;
+
+} 
+.skill-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    margin-bottom: 15px;
+} 
+.skill-description{
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+} 
+/* Section four call now */  
+.section-four{
+    margin: 100px 220px;
+    background-image: url(../images/watch.png);
+} 
+.section-four-dev{
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;      
+
+} 
+.section-four-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    padding-top: 60px;
+    margin-right: 400PX;
+    
+} 
+.call-me{
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+} 
+/* section five for about for me some thing */
+
+.about{
+    background: hsl(99, 24%, 89%);
+    border-radius: 20px;
+    padding: 50px 150px;
+    text-align: center;
+    margin: 30px 100px;
+} 
+.section-title{ 
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #181818;
+    text-align: center;
+
+} 
+.section-description{ 
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #757575;
+
+}
+.about-info-container{
+    display: flex;
+    justify-content:space-around;
+} 
+.info-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+} 
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #0f0e0e;
+} 
+/* Footer section  style    */
+.footer{
+    background: #151414;
+    margin-top: 100px;
+    padding: 100px 150px;
+} 
+.footer-container{ 
+    display: flex;
+    gap: 200px;
+
+} 
+.left-side{
+  
+} 
+.left-side-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    margin-bottom: 30px;
+} 
+.left-side-description{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 30px;
+} 
+.email{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 10px;
+} 
+.phone{
+    color: #FFFFFF;
+    font-size: 16px;
+    
+} 
+.icon-div{
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+}
+.right-side{
+  margin-top: 30px;
+} 
+.right-side-title{
+    color: #FFFFFF;
+    font-size: 25px;
+} 
+.right-side-email{
+    color: #F3F3F3;
+    font-size: 18px;
+    background-color: #151414;
+    border-radius:10px;
+    margin-top: 20px;
+    padding: 7px 20px;
+   
+} 
+.right-side-btn{
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
